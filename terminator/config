@@ -5,6 +5,7 @@
   copy = <Primary>c
   cycle_next = KP_Right
   cycle_prev = KP_Left
+  full_screen = <Primary><Shift>f
   new_tab = <Primary>t
   next_tab = <Primary>Tab
   page_down = Page_Down
@@ -12,7 +13,7 @@
   paste = <Primary>v
   prev_tab = <Primary><Shift>Tab
   reset_clear = <Primary>k
-  search = <Primary>f
+  search = F3
   split_horiz = <Shift><Alt>Down
   split_vert = <Shift><Alt>Right
   switch_to_tab_1 = <Super>1
