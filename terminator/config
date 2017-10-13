@@ -1,0 +1,67 @@
+[global_config]
+[keybindings]
+  close_term = <Primary>w
+  close_window = <Primary>q
+  copy = <Primary>c
+  cycle_next = KP_Right
+  cycle_prev = KP_Left
+  new_tab = <Primary>t
+  next_tab = <Primary>Tab
+  page_down = Page_Down
+  page_up = Page_Up
+  paste = <Primary>v
+  prev_tab = <Primary><Shift>Tab
+  reset_clear = <Primary>k
+  search = <Primary>f
+  split_horiz = <Shift><Alt>Down
+  split_vert = <Shift><Alt>Right
+  switch_to_tab_1 = <Super>1
+  switch_to_tab_10 = <Super>0
+  switch_to_tab_2 = <Super>2
+  switch_to_tab_3 = <Super>3
+  switch_to_tab_4 = <Super>4
+  switch_to_tab_5 = <Super>5
+  switch_to_tab_6 = <Super>6
+  switch_to_tab_7 = <Super>7
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[double]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 6b1b3c5f-db92-4fc3-a8aa-864d4726b0a2
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 1147:471
+      size = 642, 378
+      title = khaled@nc: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 318
+      ratio = 0.5
+      type = HPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 6b1b3c5f-db92-4fc3-a8aa-864d4726b0a2
+    [[[terminal3]]]
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 95553d71-9b7b-4667-bff6-88bd3e3599d6
+[plugins]
+[profiles]
+  [[default]]
+    background_image = None
